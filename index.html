@@ -8,10 +8,37 @@
     <title>Forms</title>
 </head>
 <body>
-    <form>
+    <header class="cabecalho">
+        Início
+    </header>
+    <form class="form">
         <div>
-            <label for="nome">Nome: </label>
-            <input type="text" id="nome" placeholder="Ex: guizaodozap"/>
+            <label for="nome" class="label">Nome: </label>
+            <input type="text" class="input" id="nome" placeholder="Ex: guizaodozap"/>
+        </div>
+        <div>
+            <label for="email" class="label">E-mail: </label>
+            <input type="email" class="input" id="email" placeholder="Ex: guizaodozap@gmail.com"/>
+        </div>
+        <div>
+            <label class="label">Sexo: </label>
+            <input type="radio" id="masc" name="sexo"/>
+            <label for="masc">masculino</label>
+            <input type="radio" id="fem" name="sexo"/>
+            <label for="fem">feminino</label>
+        </div>
+        <div>
+            <label class="label">Cursos: </label>
+            <select>
+                <option value="122">HTML e CSS</option>
+                <option value="152">Javascript</option>
+                <option value="895">node</option>
+                <option value="526">React</option>
+            </select>
+        </div>
+        <div>
+            <label for="atendimento" class="label">Descreva o atendimento especial: </label>
+            <textarea id="atendimento" cols="30" rows="5"></textarea>
         </div>
     </form>
 </body>
