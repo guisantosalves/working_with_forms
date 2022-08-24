@@ -1,3 +1,32 @@
+.containerOne {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 280px;
+    background-color: #E5E5E5;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.containerOne label {
+    color: black;
+}
+
+.containerOne input{
+    padding: 5px;
+    background-color: #E5E5E5;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    width: 85%;
+}
+
+.imageee {
+    object-fit: contain;
+    width: 10%;
+    height: 20px;
+}
+
 :root{
     --cor-primaria: #1c6e8c;
     --cor-primaria-dark: #274156;
@@ -17,6 +46,7 @@
     display: block;
     font-family: sans-serif;
     margin-top: 10px;
+    
 }
 
 .input {
